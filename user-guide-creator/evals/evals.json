@@ -1,0 +1,17 @@
+{
+  "skill_name": "user-guide-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Tôi cần tạo một user guide cho màn hình cài đặt tài khoản (Account Settings). Màn hình này cho phép người dùng đổi mật khẩu, điền tên hiển thị, và tải lên ảnh đại diện. Giao diện có một form ở giữa màn hình chứa các ô text, một ô vuông để tải ảnh, và nút 'Lưu thay đổi' ở góc dưới bên phải.",
+      "expected_output": "Markdown structure with short descriptions, action verbs in Vietnamese, and specific orange border callouts for the form fields, image upload area, and save button.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Please write a user guide for the Live Monitoring screen. It displays a grid of 4 camera feeds taking up most of the screen, and a sidebar on the right to filter cameras by location and status. I need the guide to be very simple.",
+      "expected_output": "English markdown content for the Live Monitoring screen, following the bold header and brief bullet point structure, with orange dash callouts for the camera grid and the right sidebar.",
+      "files": []
+    }
+  ]
+}
