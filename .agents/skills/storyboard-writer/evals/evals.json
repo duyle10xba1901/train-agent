@@ -1,0 +1,17 @@
+{
+  "skill_name": "storyboard-writer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Viết storyboard cho màn hình Login. Màn hình có form đăng nhập ở giữa gồm: 2 ô input (Username, Password), 1 nút Login, 1 checkbox Remember Me, và 1 link Forgot Password. Phía trên form có logo hệ thống HiCAMS. Hệ thống chỉ cho phép admin và operator đăng nhập. Nếu nhập sai 5 lần liên tiếp, tài khoản sẽ bị khóa.",
+      "expected_output": "Storyboard markdown đầy đủ cấu trúc: Header Bar (Page Name/Link/Page ID), Visual placeholder, Description Table đánh số, và ít nhất 3-4 function blocks có Preconditions, Normal Flow, Business Rules (lock after 5 attempts), và Acceptance Criteria dạng Given/When/Then.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I need a storyboard for an Event Log Explorer screen. The screen has: a filter panel on the left side (date range picker, severity dropdown, camera selector, search button, reset button), a data table in the center showing event logs (columns: No, Thumbnail, Event Type, Severity, Camera, Date/Time, Status), and a pagination bar at the bottom. Admin can see all events, Operator can only see events from their assigned cameras. Clicking a row opens an Event Detail popup.",
+      "expected_output": "English storyboard with proper structure. Should include: function blocks for the Filter Panel, Data Table, Pagination, and Row Click interaction. Must include role-based access rules (Admin vs Operator), validation on date range, and acceptance criteria.",
+      "files": []
+    }
+  ]
+}
